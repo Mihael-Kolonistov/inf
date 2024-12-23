@@ -11,6 +11,6 @@ for i in range(40):
     x = random.randint(0, 1000)
     y = random.randint(0, 1000)
     root.geometry('%dx%d+%d+%d' % (random.randint(100,500), random.randint(100,500), x, y))  
-    time.sleep(1)
+    time.sleep(100)
     root.destroy()
     
