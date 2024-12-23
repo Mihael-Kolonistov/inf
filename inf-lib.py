@@ -12,7 +12,7 @@ for i in range(40):
         root.geometry('%dx%d+%d+%d' % (random.randint(100,500), random.randint(100,500), x, y))    
     center_window()  
     l=Label(root, text="Я списал у Колонистова")
-   
-    time.sleep(0.1)
+    l.grid()
+    time.sleep(1)
     root.destroy()
     
